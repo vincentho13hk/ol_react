@@ -8,8 +8,12 @@
     "@testing-library/user-event": "^12.8.3",
     "@types/jest": "^26.0.23",
     "@types/node": "^12.20.15",
+    "@types/ol": "^6.5.1",
     "@types/react": "^17.0.9",
     "@types/react-dom": "^17.0.6",
+    "fs": "^0.0.1-security",
+    "ol": "^6.5.0",
+    "proj4": "^2.7.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
@@ -39,5 +43,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/geojson": "^7946.0.7",
+    "@types/proj4": "^2.5.0"
   }
 }

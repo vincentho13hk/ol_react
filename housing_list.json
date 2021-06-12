@@ -1,0 +1,487 @@
+[
+    {
+        "name": "Private_housing",
+        "nameChi": "私人樓宇",
+        "id": 0,
+        "buildings": [
+            {
+                "name": "Housing_Estate",
+                "nameChi": "屋苑",
+                "id": 0,
+                "classifications": [
+                    {
+                        "name": "3-nil_buildings",
+                        "nameChi": "三無大廈",
+                        "id": 3
+                    },
+                    {
+                        "name": "Private_Estates",
+                        "nameChi": "私人屋苑",
+                        "id": 0
+                    }
+                ]
+            },
+            {
+                "name": "Housing_Estates_Villas",
+                "nameChi": "屋苑 (別墅式)",
+                "id": 1,
+                "classifications": [
+                    {
+                        "name": "Private_Estates",
+                        "nameChi": "私人屋苑",
+                        "id": 0
+                    },
+                    {
+                        "name": "3-nil_buildings",
+                        "nameChi": "三無大廈",
+                        "id": 3
+                    }
+                ]
+            },
+            {
+                "name": "Single_Block_Building",
+                "nameChi": "單幢式樓宇",
+                "id": 2,
+                "classifications": [
+                    {
+                        "name": "Single_Block_Building",
+                        "nameChi": "單幢式樓宇",
+                        "id": 2
+                    },
+                    {
+                        "name": "3-nil_buildings",
+                        "nameChi": "三無大廈",
+                        "id": 3
+                    }
+                ]
+            },
+            {
+                "name": "Village_House",
+                "nameChi": "村屋",
+                "id": 3,
+                "classifications": [
+                    {
+                        "name": "Private_Estates",
+                        "nameChi": "私人屋苑",
+                        "id": 0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Tenants_Purchase_scheme",
+        "nameChi": "租者置其屋計劃",
+        "id": 3,
+        "buildings": [
+            {
+                "name": "Housing_Estate",
+                "nameChi": "屋苑",
+                "id": 0,
+                "classifications": [
+                    {
+                        "name": "PRH_Estates",
+                        "nameChi": "公共租住房屋",
+                        "id": 1
+                    },
+                    {
+                        "name": "Private_Estates",
+                        "nameChi": "私人屋苑",
+                        "id": 0
+                    },
+                    {
+                        "name": "Single_Block_Building",
+                        "nameChi": "單幢式樓宇",
+                        "id": 2
+                    }
+                ]
+            },
+            {
+                "name": "Housing_Estates_Villas",
+                "nameChi": "屋苑 (別墅式)",
+                "id": 1,
+                "classifications": [
+                    {
+                        "name": "Private_Estates",
+                        "nameChi": "私人屋苑",
+                        "id": 0
+                    },
+                    {
+                        "name": "PRH_Estates",
+                        "nameChi": "公共租住房屋",
+                        "id": 1
+                    }
+                ]
+            },
+            {
+                "name": "Single_Block_Building",
+                "nameChi": "單幢式樓宇",
+                "id": 2,
+                "classifications": [
+                    {
+                        "name": "Single_Block_Building",
+                        "nameChi": "單幢式樓宇",
+                        "id": 2
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Home_ownership_scheme",
+        "nameChi": "居者有其屋計劃",
+        "id": 1,
+        "buildings": [
+            {
+                "name": "Housing_Estate",
+                "nameChi": "屋苑",
+                "id": 0,
+                "classifications": [
+                    {
+                        "name": "Private_Estates",
+                        "nameChi": "私人屋苑",
+                        "id": 0
+                    }
+                ]
+            },
+            {
+                "name": "Housing_Estates_Villas",
+                "nameChi": "屋苑 (別墅式)",
+                "id": 1,
+                "classifications": [
+                    {
+                        "name": "Private_Estates",
+                        "nameChi": "私人屋苑",
+                        "id": 0
+                    }
+                ]
+            },
+            {
+                "name": "Single_Block_Building",
+                "nameChi": "單幢式樓宇",
+                "id": 2,
+                "classifications": [
+                    {
+                        "name": "Single_Block_Building",
+                        "nameChi": "單幢式樓宇",
+                        "id": 2
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "PRH_under_HKHA",
+        "nameChi": "房屋委員會轄下公共租住房屋",
+        "id": 6,
+        "buildings": [
+            {
+                "name": "Housing_Estate",
+                "nameChi": "屋苑",
+                "id": 0,
+                "classifications": [
+                    {
+                        "name": "PRH_Estates",
+                        "nameChi": "公共租住房屋",
+                        "id": 1
+                    }
+                ]
+            },
+            {
+                "name": "Housing_Estates_Villas",
+                "nameChi": "屋苑 (別墅式)",
+                "id": 1,
+                "classifications": [
+                    {
+                        "name": "PRH_Estates",
+                        "nameChi": "公共租住房屋",
+                        "id": 1
+                    }
+                ]
+            },
+            {
+                "name": "Single_Block_Building",
+                "nameChi": "單幢式樓宇",
+                "id": 2,
+                "classifications": [
+                    {
+                        "name": "PRH_Estates",
+                        "nameChi": "公共租住房屋",
+                        "id": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Government_quarters",
+        "nameChi": "政府宿舍",
+        "id": 4,
+        "buildings": [
+            {
+                "name": "Housing_Estate",
+                "nameChi": "屋苑",
+                "id": 0,
+                "classifications": [
+                    {
+                        "name": "Private_Estates",
+                        "nameChi": "私人屋苑",
+                        "id": 0
+                    }
+                ]
+            },
+            {
+                "name": "Housing_Estates_Villas",
+                "nameChi": "屋苑 (別墅式)",
+                "id": 1,
+                "classifications": [
+                    {
+                        "name": "Private_Estates",
+                        "nameChi": "私人屋苑",
+                        "id": 0
+                    }
+                ]
+            },
+            {
+                "name": "Single_Block_Building",
+                "nameChi": "單幢式樓宇",
+                "id": 2,
+                "classifications": [
+                    {
+                        "name": "Single_Block_Building",
+                        "nameChi": "單幢式樓宇",
+                        "id": 2
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Sandwich_class_housing_scheme",
+        "nameChi": "夾心階層住屋計劃",
+        "id": 2,
+        "buildings": [
+            {
+                "name": "Housing_Estate",
+                "nameChi": "屋苑",
+                "id": 0,
+                "classifications": [
+                    {
+                        "name": "Private_Estates",
+                        "nameChi": "私人屋苑",
+                        "id": 0
+                    }
+                ]
+            },
+            {
+                "name": "Housing_Estates_Villas",
+                "nameChi": "屋苑 (別墅式)",
+                "id": 1,
+                "classifications": [
+                    {
+                        "name": "Private_Estates",
+                        "nameChi": "私人屋苑",
+                        "id": 0
+                    }
+                ]
+            },
+            {
+                "name": "Single_Block_Building",
+                "nameChi": "單幢式樓宇",
+                "id": 2,
+                "classifications": [
+                    {
+                        "name": "Single_Block_Building",
+                        "nameChi": "單幢式樓宇",
+                        "id": 2
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "PRH_under_HKHS",
+        "nameChi": "房屋協會轄下公共租住房屋",
+        "id": 7,
+        "buildings": [
+            {
+                "name": "Housing_Estate",
+                "nameChi": "屋苑",
+                "id": 0,
+                "classifications": [
+                    {
+                        "name": "PRH_Estates",
+                        "nameChi": "公共租住房屋",
+                        "id": 1
+                    }
+                ]
+            },
+            {
+                "name": "Housing_Estates_Villas",
+                "nameChi": "屋苑 (別墅式)",
+                "id": 1,
+                "classifications": [
+                    {
+                        "name": "PRH_Estates",
+                        "nameChi": "公共租住房屋",
+                        "id": 1
+                    }
+                ]
+            },
+            {
+                "name": "Single_Block_Building",
+                "nameChi": "單幢式樓宇",
+                "id": 2,
+                "classifications": [
+                    {
+                        "name": "PRH_Estates",
+                        "nameChi": "公共租住房屋",
+                        "id": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "University_quarters",
+        "nameChi": "大學宿舍",
+        "id": 5,
+        "buildings": [
+            {
+                "name": "Housing_Estate",
+                "nameChi": "屋苑",
+                "id": 0,
+                "classifications": [
+                    {
+                        "name": "Private_Estates",
+                        "nameChi": "私人屋苑",
+                        "id": 0
+                    },
+                    {
+                        "name": "Single_Block_Building",
+                        "nameChi": "單幢式樓宇",
+                        "id": 2
+                    }
+                ]
+            },
+            {
+                "name": "Housing_Estates_Villas",
+                "nameChi": "屋苑 (別墅式)",
+                "id": 1,
+                "classifications": [
+                    {
+                        "name": "Private_Estates",
+                        "nameChi": "私人屋苑",
+                        "id": 0
+                    }
+                ]
+            },
+            {
+                "name": "Single_Block_Building",
+                "nameChi": "單幢式樓宇",
+                "id": 2,
+                "classifications": [
+                    {
+                        "name": "Single_Block_Building",
+                        "nameChi": "單幢式樓宇",
+                        "id": 2
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Rural_Village",
+        "nameChi": "鄉村 (已登記原居鄉村)",
+        "id": 8,
+        "buildings": [
+            {
+                "name": "Village_House",
+                "nameChi": "村屋",
+                "id": 3,
+                "classifications": [
+                    {
+                        "name": "Rural_Village",
+                        "nameChi": "鄉村",
+                        "id": 4
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Others",
+        "nameChi": "其他 (原居鄉村以外鄉村或其他)",
+        "id": 9,
+        "buildings": [
+            {
+                "name": "Housing_Estate",
+                "nameChi": "屋苑",
+                "id": 0,
+                "classifications": [
+                    {
+                        "name": "3-nil_buildings",
+                        "nameChi": "三無大廈",
+                        "id": 3
+                    },
+                    {
+                        "name": "Single_Block_Building",
+                        "nameChi": "單幢式樓宇",
+                        "id": 2
+                    },
+                    {
+                        "name": "Private_Estates",
+                        "nameChi": "私人屋苑",
+                        "id": 0
+                    }
+                ]
+            },
+            {
+                "name": "Housing_Estates_Villas",
+                "nameChi": "屋苑 (別墅式)",
+                "id": 1,
+                "classifications": [
+                    {
+                        "name": "Private_Estates",
+                        "nameChi": "私人屋苑",
+                        "id": 0
+                    }
+                ]
+            },
+            {
+                "name": "Single_Block_Building",
+                "nameChi": "單幢式樓宇",
+                "id": 2,
+                "classifications": [
+                    {
+                        "name": "Single_Block_Building",
+                        "nameChi": "單幢式樓宇",
+                        "id": 2
+                    }
+                ]
+            },
+            {
+                "name": "Village_House",
+                "nameChi": "村屋",
+                "id": 3,
+                "classifications": [
+                    {
+                        "name": "Private_Estates",
+                        "nameChi": "私人屋苑",
+                        "id": 0
+                    },
+                    {
+                        "name": "3-nil_buildings",
+                        "nameChi": "三無大廈",
+                        "id": 3
+                    },
+                    {
+                        "name": "Single_Block_Building",
+                        "nameChi": "單幢式樓宇",
+                        "id": 2
+                    }
+                ]
+            }
+        ]
+    }
+]
