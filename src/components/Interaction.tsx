@@ -11,6 +11,7 @@ import { Circle as CircleStyle, Fill, Stroke, Style } from 'ol/style';
 import { fromLonLat } from 'ol/proj';
 import { Draw } from 'ol/interaction'
 import GeometryType from 'ol/geom/GeometryType';
+import MapBase from './MapBase';
 
 // let vector = new Heatmap({
 //     source: new Vector({
@@ -93,6 +94,7 @@ const Interaction = () => {
     addInteraction();
   }, [typeGeom])
   let draw: Draw
+  
   const addInteraction = () => {
     console.log(typeGeom)
     if (typeGeom !== 'None') {
@@ -121,7 +123,7 @@ const Interaction = () => {
   }
 
   return (
-    <div>
+    <MapBase>
       <select onChange={handleSelectChange}>
         {/* 點 */}
         <option value="Point">Point</option>
@@ -134,7 +136,7 @@ const Interaction = () => {
         {/* 沒有圖形 */}
         <option value="None">None</option>
       </select>
-    </div>
+    </MapBase>
   )
 }
 

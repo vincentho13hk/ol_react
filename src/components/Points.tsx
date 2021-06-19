@@ -13,6 +13,7 @@ import { fromLonLat } from 'ol/proj';
 import { Draw } from 'ol/interaction'
 import GeometryType from 'ol/geom/GeometryType';
 import { predefinedStyles } from '../styles';
+import MapBase from '../components/MapBase'
 
 // type Style = {
 //   symbol: {
@@ -94,7 +95,7 @@ const Points = () => {
   }
 
   return (
-    <div>
+    <MapBase>
       <select onChange={onSelectChange}>
         <option value="icons">Icons</option>
         <option value="triangles">Triangles, color related to population</option>
@@ -105,7 +106,7 @@ const Points = () => {
       </select>
       <div>{editorText}</div>
       <div>{errorMsg}</div>
-    </div>
+    </MapBase>
   )
 }
 
