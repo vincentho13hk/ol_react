@@ -22,8 +22,8 @@ interface CesiumPlayProps {
 }
 
 window.CESIUM_BASE_URL = 'http://localhost:3001/cesium';
-const BingMapsApiDefaultKey = 'AjygRDDQV9j1MIOwbI_BGFh4j4pm7OiKXx9aDJh01p3QVaNCA95dmzFvMsvAicvu';
-Cesium.Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJlZDlmMmFjYS02ZWVmLTQ0ZDAtYTUyNi1hOTljODUyYWY2ZWEiLCJpZCI6NjAzOTMsImlhdCI6MTYyNTAzNDAxOX0.u_HLk_p3IYKhB4ZFdzb_Iy1sLXSrXP_IhUzScFTa4Pc'
+const BingMapsApiDefaultKey = `${process.env.REACT_APP_BINGMAP_API_KEY}`
+Cesium.Ion.defaultAccessToken = `${process.env.REACT_APP_CESIUM_ION_ACCESS_TOKEN}`
 
 
 const CesiumPlay = (props: CesiumPlayProps) => {

@@ -5,7 +5,6 @@ import MapFactory, { MapOption, GoogleMap, GoogleMapFactory } from '../models/ma
 
 const MapFactoryComponent = () => {
   useEffect(() => {
-    const initMap = () => {
       let myMapFactory = new GoogleMapFactory()
       let map = myMapFactory.Build({
         x: 121,
@@ -15,15 +14,14 @@ const MapFactoryComponent = () => {
         id: 'map'
       })
       map.Init()
-      // let GMap = new google.maps.Map(document.getElementById('gmap') as HTMLElement, {
-      //   center: { lat: 23.5, lng: 121 },
-      //   zoom: 7
-      // });
-      // console.log(GMap)
-    }
-    google.maps.event.addDomListener(window, 'load', initMap);
 
+    // google.maps.event.addDomListener(window, 'load', initMap);
 
+    // let GMap = new google.maps.Map(document.getElementById('gmap') as HTMLElement, {
+    //   center: { lat: 23.5, lng: 121 },
+    //   zoom: 7
+    // });
+    // console.log(GMap)
 
   }, [])
 

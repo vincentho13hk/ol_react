@@ -46,7 +46,7 @@ const HereMap = () => {
     const H = (window as any).H;
     // console.log(H)
     const platform = new H.service.Platform({
-      apikey: "{API_KEY}"
+      apikey: `${process.env.REACT_APP_HERE_MAP_API_KEY}`
     });
     console.log(platform)
     const defaultLayers = platform.createDefaultLayers();
