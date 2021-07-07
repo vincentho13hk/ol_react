@@ -1,0 +1,6 @@
+{
+    "DOP5KWmtsUrl": "",
+    "DOP5KWmtsLayer": "ws.oden:dop5k2018055401",
+    "TerrainServerUrl": "/Proxy/https://seasia.odensystems.net/HKTerrain/tilesets/tiles",
+    "PathImage": "images/"
+}

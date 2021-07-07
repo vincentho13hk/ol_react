@@ -13,7 +13,7 @@ import { fromLonLat } from 'ol/proj';
 import { Draw } from 'ol/interaction'
 import GeometryType from 'ol/geom/GeometryType';
 import { predefinedStyles } from '../styles';
-import MapBase from '../components/MapBase'
+import MapBase from './MapBase'
 
 // type Style = {
 //   symbol: {

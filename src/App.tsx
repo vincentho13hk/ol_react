@@ -1,15 +1,20 @@
 import React from 'react'
-import Interaction from './components/Interaction'
-import Points from './components/Points'
-import FunctionList from './components/FunctionList'
-import NoMatch from './components/NoMatch'
-import AddPoints from './components/AddPoints'
 import {
   BrowserRouter as Router,
   Switch,
   Route,
   RouteProps
 } from 'react-router-dom'
+import * as Cesium from 'cesium'
+
+import Interaction from './components/Interaction'
+import Points from './components/Points'
+import FunctionList from './components/FunctionList'
+import NoMatch from './components/NoMatch'
+import AddPoints from './components/AddPoints'
+import CesiumPlay from './components/CesiumPlay'
+import MapFactory from './components/MapFactory'
+import HereMap from './components/HereMap'
 
 interface componentRoute extends RouteProps {
   name: string;
@@ -41,6 +46,24 @@ export const componentRoutes: componentRoute[] = [
     description: "Add points to map",
     path: "/addpoints",
     component: AddPoints
+  },
+  {
+    name: "Cesium Play",
+    description: "Playaround Cesium",
+    path: "/cesium_play",
+    component: CesiumPlay
+  },
+  {
+    name: "MapFactory",
+    description: "Factory Design Pattern For Map",
+    path: "/mapfactory",
+    component: MapFactory
+  },
+  {
+    name: "HereMap",
+    description: "Here Map API",
+    path: "/here_map",
+    component: HereMap
   }
 ]
 
@@ -53,18 +76,18 @@ export const MapContext = React.createContext(false);
 
 const App = () => {
   return (
-    <Router>
-      <Switch>
-        {componentRoutes.map((item, key) => {
-          return (
-            <Route key={key} exact={item.exact} path={item.path} component={item.component} />
-          )
-        })}
-        <Route path="*">
-          <NoMatch />
-        </Route>
-      </Switch>
-    </Router>
+    <>
+
+      <Router>
+        <Switch>
+          {componentRoutes.map((item, key) => {
+            return (
+              <Route key={key} exact={item.exact} path={item.path} component={item.component} />
+            )
+          })}
+        </Switch>
+      </Router>
+    </>
   )
 }
 

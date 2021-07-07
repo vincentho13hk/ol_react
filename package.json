@@ -2,33 +2,42 @@
   "name": "ol_react",
   "version": "0.1.0",
   "private": true,
+  "config-overrides-path": "node_modules/react-app-rewired/config-overrides.js",
   "dependencies": {
+    "@craco/craco": "^6.1.2",
     "@material-ui/core": "^4.11.4",
     "@testing-library/jest-dom": "^5.13.0",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "@types/googlemaps": "^3.43.3",
     "@types/jest": "^26.0.23",
     "@types/node": "^12.20.15",
     "@types/ol": "^6.5.1",
     "@types/react": "^17.0.9",
     "@types/react-dom": "^17.0.6",
     "@types/react-router-dom": "^5.1.7",
+    "@znemz/cesium-navigation": "^4.0.0",
     "axios": "^0.21.1",
+    "cesium": "^1.83.0",
+    "cesium-navigation-es6": "^1.1.7",
+    "craco-cesium": "^1.2.0",
     "file-saver": "^2.0.5",
     "fs": "^0.0.1-security",
+    "leaflet": "^1.7.1",
     "ol": "^6.5.0",
     "proj4": "^2.7.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
+    "resium": "^1.13.1",
     "typescript": "^4.3.2",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "cross-env BROWSER='chrome' react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -52,6 +61,13 @@
   "devDependencies": {
     "@types/file-saver": "^2.0.2",
     "@types/geojson": "^7946.0.7",
-    "@types/proj4": "^2.5.0"
+    "@types/google.maps": "^3.45.4",
+    "@types/heremaps": "^3.1.4",
+    "@types/leaflet": "^1.7.3",
+    "@types/proj4": "^2.5.0",
+    "copy-webpack-plugin": "^6.1.0",
+    "customize-cra": "^1.0.0",
+    "html-webpack-tags-plugin": "^2.0.17",
+    "react-app-rewired": "^2.1.8"
   }
 }
