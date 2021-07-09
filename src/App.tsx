@@ -15,6 +15,8 @@ import AddPoints from './components/AddPoints'
 import CesiumPlay from './components/CesiumPlay'
 import MapFactory from './components/MapFactory'
 import HereMap from './components/HereMap'
+import LeafletMap from './components/LeafletMap'
+import OL_Gmap from './components/OL_Gmap'
 
 interface componentRoute extends RouteProps {
   name: string;
@@ -64,7 +66,19 @@ export const componentRoutes: componentRoute[] = [
     description: "Here Map API",
     path: "/here_map",
     component: HereMap
-  }
+  },
+  {
+    name: "Leaflet Map",
+    description: "Leaflet Map",
+    path: "/leaflet",
+    component: LeafletMap
+  },
+  {
+    name: "OL with Google Map",
+    description: "Google Map",
+    path: "/olgoogle",
+    component: OL_Gmap
+  },
 ]
 
 let style = {

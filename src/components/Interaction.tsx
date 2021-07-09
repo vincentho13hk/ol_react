@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import proj4 from 'proj4'
 import Map from 'ol/Map';
 import { GeoJSON, KML } from 'ol/format';
-import { Vector as VectorSource, Stamen } from 'ol/source';
+import { Vector as VectorSource, Stamen, TileImage } from 'ol/source';
 import { Tile, Heatmap, Vector as VectorLayer } from 'ol/layer';
 import { OSM, XYZ } from 'ol/source';
 import View from 'ol/View';
@@ -22,11 +22,13 @@ import MapBase from './MapBase';
 //     }),
 // })
 
-let raster = new Tile({
+let raster = 
+new Tile({
   // source: new Stamen({
   //     layer: 'toner'
   // })
   source: new OSM()
+  // new Tile({ source: new TileImage({ url: 'http://mt1.google.com/vt/lyrs=p&x={x}&y={y}&z={z}' }) })
 })
 
 let drawSource = new VectorSource({ wrapX: false })
